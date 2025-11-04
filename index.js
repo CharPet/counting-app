@@ -86,3 +86,20 @@ function save() {
 // console.log(lapsCompleted);
 
 // -----------------------------------------
+
+// let username = "Per";
+// let message = "You have three new notifications";
+
+// console.log(message + ", " + username + "!");
+
+// let messageToUser = message + ", " + username + "!";
+
+// console.log(messageToUser);
+
+// -----------------------------------------
+
+let name = "Pepe";
+let greeting = "Hi, my name is ";
+let myGreeting = greeting + name + "!";
+
+console.log(myGreeting);
