@@ -31,21 +31,26 @@
 
 // -----------------------------------------
 let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
 
-console.log(countEl);
+// console.log(countEl);
 
 let count = 0;
 
 function increment() {
   //   console.log("clicked");
-  count = count + 1;
+  count += 1;
   //   document.getElementById("count").innerText = count;
   //   console.log(count);
   countEl.innerText = count;
 }
 
 function save() {
+  let countStr = " " + count + " - ";
+  saveEl.textContent += countStr;
   console.log(count);
+  count = 0;
+  countEl.textContent = 0;
 }
 
 // save();
@@ -98,8 +103,10 @@ function save() {
 
 // -----------------------------------------
 
-let name = "Pepe";
-let greeting = "Hi, my name is ";
-let myGreeting = greeting + name + "!";
+// let name = "Pepe";
+// let greeting = "Hi, my name is ";
+// let myGreeting = greeting + name + "!";
 
-console.log(myGreeting);
+// console.log(myGreeting);
+
+// -----------------------------------------
