@@ -44,6 +44,12 @@ function increment() {
   countEl.innerText = count;
 }
 
+function save() {
+  console.log(count);
+}
+
+// save();
+
 // -----------------------------------------
 
 // function print42() {
