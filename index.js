@@ -21,10 +21,62 @@
 // console.log(myDogAge);
 
 // -----------------------------------------
-let bonusPoints = 50;
-bonusPoints = bonusPoints + 50;
-console.log(bonusPoints);
-bonusPoints = bonusPoints - 75;
-console.log(bonusPoints);
-bonusPoints = bonusPoints + 45;
-console.log(bonusPoints);
+// let bonusPoints = 50;
+// bonusPoints = bonusPoints + 50;
+// console.log(bonusPoints);
+// bonusPoints = bonusPoints - 75;
+// console.log(bonusPoints);
+// bonusPoints = bonusPoints + 45;
+// console.log(bonusPoints);
+
+// -----------------------------------------
+let countEl = document.getElementById("count-el");
+
+console.log(countEl);
+
+let count = 0;
+
+function increment() {
+  //   console.log("clicked");
+  count = count + 1;
+  //   document.getElementById("count").innerText = count;
+  //   console.log(count);
+  countEl.innerText = count;
+}
+
+// -----------------------------------------
+
+// function print42() {
+//   console.log(42);
+// }
+
+// print42();
+
+// -----------------------------------------
+
+// let lap1 = 34;
+// let lap2 = 33;
+// let lap3 = 36;
+
+// function totalLapTime() {
+//   let totalTime = lap1 + lap2 + lap3;
+//   console.log(totalTime);
+// }
+
+// totalLapTime();
+
+// -----------------------------------------
+
+// let lapsCompleted = 0;
+
+// function incrementLapsCompleted() {
+//   lapsCompleted = lapsCompleted + 1;
+// }
+
+// incrementLapsCompleted();
+// incrementLapsCompleted();
+// incrementLapsCompleted();
+
+// console.log(lapsCompleted);
+
+// -----------------------------------------
